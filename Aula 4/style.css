@@ -1,18 +1,27 @@
 body{
     color:black;
-    background-color:yellow;
+    /*background-image:linear-gradient(red,yellow);*/
+    background-image: url("https://i.pinimg.com/originals/b3/a5/dc/b3a5dc9c88038e79419fc66e2198e865.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* background-position: center;*/
+
 }
 
-p{  
+p, ul, ol{  
     color:black;
     background-color:white;
+    font-size: 20px;
+    text-align: center
+}
+.Titulo{ /*class*/
+
+}
+
+#seletor { /*id*/
+
 }
 
 p{  
-    font-size: 80px;
-
-}
-
-li{
-    font-size: 40px;
+    font-size: 20px; /* comentários no css*/
 }
